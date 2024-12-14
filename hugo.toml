@@ -1,0 +1,28 @@
+baseURL = 'https://wizardlazers.com/'
+languageCode = 'en-us'
+title = 'WizLaz - Professional Internet Menace'
+theme = 'PaperMod'
+
+[params]
+description = "Hot takes, cold hearts, and absolutely zero regrets"
+author = "WizLaz"
+defaultTheme = "dark"
+
+[params.profileMode]
+enabled = true
+title = "WizLaz"
+subtitle = "Making the internet worse, one post at a time"
+imageUrl = "/images/trollface.png"
+
+[menu]
+[[menu.main]]
+identifier = "posts"
+name = "All Posts"
+url = "/posts/"
+weight = 10
+
+[[menu.main]]
+identifier = "about"
+name = "About Me"
+url = "/about/"
+weight = 20
